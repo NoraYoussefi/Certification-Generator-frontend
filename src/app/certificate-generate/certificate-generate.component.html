@@ -1,50 +1,69 @@
   <!-- Landing -->
   <section class="landing">
     <div class="landing-text">
-      <h1>Créer la formation et générer vos certificats.</h1>
+      <h2>Créer la formation et générer vos certificats.</h2>
       
-      <a href="" class="btn btn-lg" id="box">Créer maintenant</a>
+      <a routerLink="Create" class="btn btn-lg">Créer maintenant</a>
     </div>
   </section>
   <!-- Our form -->
   <section>
     <div class="container">
-        <form>
+        <form id="" class="">
             <div id="form-main-container">
             <div id="form-area">
               <div id="form-title">
-              Payment online
+              Création du certificat :
               </div>
               <div id="form-body">
                 <div>
                   <div class="col-12">
                     <fieldset class="form-group">
-                      <label class="form-label" for="input4">Input</label>
-                      <input type="text" class="form-control" id="input4" placeholder="Input" required>
+                      <label class="form-label" for="input4">Type de certificat</label>
+                      <input type="text" class="form-control" id="input4" placeholder="ex: Design" required>
                     </fieldset>
                   </div>
                   <div class="col-12">
                     <fieldset class="form-group">
-                      <label class="form-label" for="input5">Input</label>
-                      <input type="text" class="form-control" id="input5" placeholder="Input" required>
+                      <label class="form-label" for="input5">Titre de formation</label>
+                      <input type="text" class="form-control" id="input5" placeholder="ex: Illustrator" required>
                     </fieldset>
                   </div>
                   <div class="col-12">
                     <fieldset class="form-group">
-                      <label class="form-label" for="input6">Input</label>
-                      <input type="text" class="form-control" id="input6" placeholder="Input" required>
+                      <label class="form-label" for="input6">Description de formation</label>
+                      <input type="text" class="form-control" id="input6" placeholder="ex: Une formation dans laquelle on va apprendre à ..." required>
+                    </fieldset>
+                  </div>
+                  <div class="col-12">
+                    <fieldset class="form-group">
+                      <label class="form-label" for="input6">Date</label>
+                      <!-- <input type="text" class="form-control" id="input6" placeholder="ex: Une formation dans laquelle on va apprendre à ..." required> -->
+                      <input id="input6" type="date" value="2022-04-24" required>
+                    </fieldset>
+                  </div>
+                  <div class="col-12">
+                    <fieldset class="form-group">
+                      <label class="form-label" for="input6">Image d'arrière plan</label>
+                      <input type="file" id="input6" name="avatar" accept="image/png, image/jpeg" required>
+                    </fieldset>
+                  </div>
+                  <div class="col-12">
+                    <fieldset class="form-group">
+                      <label class="form-label" for="input6">Fichier excel</label>
+                      <input id="input6" type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" required>
                     </fieldset>
                   </div>
                 </div>
                 <div>
                   <div class="center-text button-area">
-                    <button type="button" class="btn btn-cancel">Cancel</button>
+                    <button type="button" class="btn btn-cancel">Enregistrer</button>
                   </div>
                  
                 </div>
               </div>
             </div>
           </div>
-          </form>
+        </form>
     </div>
 </section>

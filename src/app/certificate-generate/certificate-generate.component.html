@@ -2,26 +2,92 @@
   <section class="landing">
     <div class="landing-text">
       <h1>Créer la formation et générer vos certificats.</h1>
-      <!-- <p>
-        Qu'est-ce que vous attendez ? Rejoignez dès maintenant notre club et profitez de nos différentes formations.
-      </p> -->
-      <a href="#url-shorten-form" class="btn btn-lg">Nos formations</a>
-    </div>
-  <!-- Features -->
-  <section class="features" id="features">
-    <div class="container">
-      <!-- Short URL Feature -->
-      <div class="url-shorten-feature">
-        <form class="url-shorten-form" id="url-shorten-form">
-            <div class="section-header">
-                <!-- <h2 style="color:white">Nos formations actuelles.</h2> -->
-            </div>
-        </form>
-        <div class="url-shorten-results"></div>
-      </div>
-      <!-- Advanced Features -->
-      <div class="more-features">
-        
-      </div>
+      
+      <a href="" class="btn btn-lg">Créer maintenant</a>
     </div>
   </section>
+  <!-- Our form -->
+  <section class="features" id="features">
+    <div class="container">
+    <div class="ctrlqFormContent">
+
+        <form>  
+
+        <div class="row">
+            <div class="input-field col s12">
+            <h4>Candidate Interview Form</h4>
+            <p>All fields are required</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" type="text" class="validate" data-error="#e1" required>
+            <div id="e1"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="input-field col s12">
+            <label for="email">Your Email</label>
+            <input id="email" name="email" type="text" class="validate" data-error="#e2" required>
+            <div id="e2"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="input-field col s12">
+            <label for="email">Your Email</label>
+            <input id="email" name="email" type="text" class="validate" data-error="#e2" required>
+            <div id="e2"></div>
+            </div>
+        </div>
+        <br>
+        
+
+
+        <div class="row">
+            <div class="input-field col s12">
+            <label for="birthdate">Date of Birth</label>
+            <input type="date" id="birthdate" class="datepicker" name="birthdate" data-error="#e5" required>
+            <div id="e5"></div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="input-field col s12">
+            <textarea id="bio" name="bio" class="materialize-textarea" data-error="#e6" required></textarea>
+            <label for="bio">Short Bio</label>
+            <div id="e6"></div>
+            </div>
+        </div>
+        <br>
+        
+
+        <div class="row">
+            <div class="file-field input-field col s12">
+            <div class="btn">
+                <span>Browse</span>
+                <input type="file" data-error="#e9" required>
+            </div>
+            <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Select a file to upload">
+            </div>
+            <div class="input-field">
+                <div id="e9"></div>
+            </div>
+            </div>
+        </div>      
+        <div class="row">
+            <div class="input-field col m6 s12">
+            <button type="submit" class="waves-effect waves-light btn-large"><i class="material-icons right">backup</i>Submit</button>
+            </div>
+        </div>
+
+        </form>
+
+    </div>
+    </div>
+</section>
